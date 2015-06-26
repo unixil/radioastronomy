@@ -1,2 +1,20 @@
 * Analysis of the Interferometer Response
 ** Fourier transforma relationship between intensity and visibility
+#+CAPTION: Baseline and position vector that specify interferometry
+and the source
+#+NAME: Fig3-1
+[[./pic/intensityandvisibility3-1.png]]
+From the figure above we can guess how the uv plane is used. uv-plane
+is defined in a plane normal to the direction of the phase reference
+position. The spacing direction v is measured toward the north as
+defined by the plane through the origin, the source, and the pole, and
+u toward the east. The component w is measured in the direction s_0,
+which is the phase reference position. The source I(l,m) l and m are
+direction cosines measured with respect to the axes u and v. The
+figure shown below will illustrate the geometry relationship.
+#+CAPTION:Geometry between source under observation I(l,m) and
+interferometer. The antenna baseline vector, measured in wavelength,
+has length D_\lambda and components (u,v,w).
+[[./pic/geometrybetweensourceandinterferometry3-2.png]]
+
+
