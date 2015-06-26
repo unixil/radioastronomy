@@ -1,0 +1,2 @@
+* Analysis of the Interferometer Response
+** Fourier transforma relationship between intensity and visibility
