@@ -1,0 +1,33 @@
+* Deconvolution
+** Deconvolution
+*** 'principle solution' and 'invisable distributions'
+Interferomists call the homogeneous solutions the "invisible
+distributions" or "ghosts". The solution having zero amplitude in all the unsampled spacial
+frequencies is usually called 'principle solution'.
+Invisable distributions comes from two sources: first, the uv
+coverages only finite spatial frequencies, so the invisible
+distributions correspond to finer detail than can be solved.
+
+/This part
+corresponds to the interferometry baseline distance is not infinity./
+
+secondly, holes may exist in uv coverage.
+The problem of image construction can be reduced to that of choosing
+plausible invisible distribution to merge with principle solution.
+*** problems with 'principle solution'
+If data is obtained on a regular grid then the principle is the dirty
+image and is given by the convolution of true brightness distribution
+with the dirty beam.
+Without prior information, we can't tell if the source is a point
+or is shaped like the dirty. Besides the priciple solution will change
+if we get more data.
+The prior information is the key, the clean algorithm, the MEM method
+and other method are introduced to constrained the invisiable
+distribution to drive solutions to the convolution equation.
+
+/For a ideal beam, the side lobe should be the lobes of Airy/
+/Pattern. For a dirty beam, side lobes are introduced because the sample are finite and/
+/discreted. Adding weight function will reduce some side lobe, but also/
+/cause information loss./
+
+** The CLEAN algorithm

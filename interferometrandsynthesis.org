@@ -4,6 +4,7 @@
 and the source
 #+NAME: Fig3-1
 [[./pic/intensityandvisibility3-1.png]]
+
 From the figure above we can guess how the uv plane is used. uv-plane
 is defined in a plane normal to the direction of the phase reference
 position. The spacing direction v is measured toward the north as
@@ -15,6 +16,30 @@ figure shown below will illustrate the geometry relationship.
 #+CAPTION:Geometry between source under observation I(l,m) and
 interferometer. The antenna baseline vector, measured in wavelength,
 has length D_\lambda and components (u,v,w).
-[[./pic/geometrybetweensourceandinterferometry3-2.png]]
+[[./pic/geometrybetweensourceandinterferometer3-2.png]]
+
+lm-plane is useful as illustrated in the following figure, the lm
+plane is a plane tangent to the celestial sphere at point s_0, and the
+fourier transformation is to transform between lm-plane and uv-plane.
+
+#+CAPTION: lm-plane
+#+NAME: Fig3-3
+[[./pic/lmplane3-3.png]]
+
+l^{\prime}m^{\prime}-plane and u^{\prime}v^{\prime}-plane is
+illustrated in the following figure, the l^{\prime}m^{\prime}-plane is
+tangent to the celestial sphere at the pole and
+u^{\prime}v^{\prime}-plane is parallel to the earth equation plane and
+the direct fourie transformation is between the
+l^{\prime}m^{\prime}-plane and u^{\prime}v^{\prime}-plane
+#+CAPTION: u^{\prime}v^{\prime}-plane
+#+NAME: Fig3-5
+[[./pic/uvplane3-5.png]]
+
+The l^{\prime}m^{\prime}-plane can be projected onto the lm-plane, you
+can check the information in P96 equation 3.15 and 3.16.
+
+* Cross correlation and and the Wiener-Khinchin relation
+
 
 
