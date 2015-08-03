@@ -1,6 +1,8 @@
+*
 ** radio window
 A lower frequency limit at \nu\simeq 15MHz(\lambda\simeq 20m) to high frequency cut-off at \nu\simeq
 1.5THz(\lambda\simeq 0.2mm).Frequency below KHz can not be detected
 on earth because the ionospheric layer of the earth will block their
 propogation. 
+* Interferometry and Aperture Synthesis 
 ** 
