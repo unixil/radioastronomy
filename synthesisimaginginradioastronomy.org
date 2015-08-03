@@ -1,0 +1,75 @@
+* Calibration and Editing
+** Definition
+*** Calibration: to recover the true visibility
+*** Editing: discarding and discrepant and severely corrupted data
+** Basic Consideration
+*** Synthesis equation and phase delay
+**** $V(\mu,\nu)=\int_{-\inf}^{\inf}A_{\nu}(l,m)I_{\nv}(l,m)e^{-2\pi
+i(\mu l+\nu m)}dldm$
+**** phase delay
+*** Calibration formalism
+relation between true visible function and actual 
+- baseline based complex gain
+- baseline based complex offset
+- stochastic complex noise
+?? complex number is used for convenience ??
+**** integral time
+visibility are averaged over a time interval during which the complex
+gain are not expect to change enough to perceptiblly lower the
+coherence, maximum change will come from edge of the
+field-of-view. Maximum integration time is approximatly given by 
+ $\Delta t\sim 2D_{(m)}/B_{(km)}$, where D is diameter of antenna and
+B is baseline length in unit of km. If the source is in the beamsize
+region, long time integral is permissible.
+*** Editing
+Editing can be consider as part of calibration, some time baseline
+based complex gain can't be determined
+*** calibration method
+- direct calibration: parameter designed in the antenna array
+?? amplitude stablity?? phase stablity
+devices embeded in the array and outside the array will help reduce
+the instablity and variations.
+- Calibrator sources in the sky: need a sky calibrator, which can
+reduce the interference in the atomsphere.
+- self calibration
+*** Calibration of amplitude and phase
+most calibration should be made before signal pairs are correlated
+$G_{ij}(t)=g_i(t)g^*_j(t)=a_i(t)a_j(t)e^i{\phi_i(t)-\phi_j(t)}$
+*** Multifrequency and dual-polarization capability
+calibration operation deal with internal array system must be
+performed seprately for each frequency and polarization.
+calibration associated with geometry of array and troposphere need to
+be done once and has nothing to do with frequencies.
+** Initial calibration
+- Antenna pointing
+- Antenna delay
+- Antenna positions
+- Accurate position of calibrator to be used for monitoring system
+gain
+*** Antenna pointing and gain
+**** antenna pointing error
+***** concepts
+difference between actual pointing position and desired position
+***** tolerance
+- 0.1 FWHP, this should be smaller if the source has a large diameter
+or the background has emmission.
+***** cause
+- misallignment polar or elevation axis
+- gravitation
+- wind
+- temperature
+***** two observation to determining the pointing position 
+- total power observation 
+- interferometric observation
+***** Multi-frequency cause gain loss
+**** Delay Calibration
+- geometry delay
+- instrumental delay
+- polarization delay
+**** Time and Place
+- character time scale: time between calibration observation
+- integral time scale: 10~30 seconds
+**** Amplitude check
+phase and amplitude variation introduced by electronics and signal
+transfer system and by the presence of atomsphere. 
+***** special array system 
